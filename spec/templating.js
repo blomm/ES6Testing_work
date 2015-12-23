@@ -1,5 +1,5 @@
 describe('pluralsight templating', function(){
-    
+    //here are some comments...
     'use strict';
     	
 	it('should define a variable with traditional var scoping - i.e. hoisting', function(){

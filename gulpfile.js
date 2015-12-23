@@ -23,6 +23,7 @@ gulp.task('watch', function() {
   livereload.listen();
   
   gulp.watch(['dist/**']).on('change', livereload.changed);
+  //gulp.watch(['view/*.html']).on('change', livereload.changed);
 
 });
  

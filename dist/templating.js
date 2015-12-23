@@ -5,7 +5,7 @@ var _createClass = (function () { function defineProperties(target, props) { for
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 describe('pluralsight templating', function () {
-
+	//here are some comments...
 	'use strict';
 
 	it('should define a variable with traditional var scoping - i.e. hoisting', function () {

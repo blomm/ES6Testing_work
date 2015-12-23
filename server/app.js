@@ -6,7 +6,7 @@ var app = express();
 var path = require("path");
 
 app.get('/', function(req,res){
-	res.sendFile(path.join(__dirname + '/../SpecRunner.html'));
+	res.sendFile(path.join(__dirname + '/../view/SpecRunner.html'));
 })
 
 app.use(express.static(path.join(__dirname, '../')));
